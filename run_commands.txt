@@ -1,0 +1,10 @@
+./solution.py < inputs/input_1.txt > temp.txt ; diff temp.txt outputs/output_1.txt
+./solution.py < inputs/input_2.txt > temp.txt ; diff temp.txt outputs/output_2.txt
+./solution.py < inputs/input_3.txt > temp.txt ; diff temp.txt outputs/output_3.txt
+./solution.py < inputs/input_4.txt > temp.txt ; diff temp.txt outputs/output_4.txt
+./solution.py < inputs/input_5.txt > temp.txt ; diff temp.txt outputs/output_5.txt
+./solution.py < inputs/input_6.txt > temp.txt ; diff temp.txt outputs/output_6.txt
+./solution.py < inputs/input_7.txt > temp.txt ; diff temp.txt outputs/output_7.txt
+./solution.py < inputs/input_8.txt > temp.txt ; diff temp.txt outputs/output_8.txt
+./solution.py < inputs/input_9.txt > temp.txt ; diff temp.txt outputs/output_9.txt
+./solution.py < inputs/input_10.txt > temp.txt ; diff temp.txt outputs/output_10.txt
