@@ -3,7 +3,7 @@ Was interested in writting a question for the CSSA programming contest and they 
 
 ## Problem Description: Path Traversal
 
-You are present with no more than **750** paths ranging in length of no more than **250** steps needed to travel down them. Your task is to either find the shortest number of steps to traverse the path **or** find the deepest possible traversal index if there is no way to traverse **any** of the paths.
+You are present with no more than **10^3** paths ranging in length of no more than **10^3**. Your task is to either find the shortest number of steps to traverse the path **or** find the deepest possible traversal index if there is no way to traverse **any** of the paths.
 
 You have two traversal options available to you. You can either take **2** steps or your can take **1** step. **0's** represent locations you can step on. **1's** represent locations you can't step on. Lets look at an example for this to make sense
 
@@ -26,7 +26,9 @@ Index **0** will be 0 100% of the time so we start there. In row 1 we can take a
 ```
 `output: 5`
 
-In this example we attempt to calculate the shortest path to the end for each row. None of them have a solution though so we print out 5 as the solution as it was the deepest index we could traverse to.
+In this example we attempt to calculate the shortest path to the end for each row. None of them have a solution though so we print out 5 as the solution. This is because it was the deepest index we could traverse to.
+
+
 
 ### Run the comparison file with:
 - `source run_commands.txt` > sanity check
