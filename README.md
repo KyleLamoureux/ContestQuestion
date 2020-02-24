@@ -26,6 +26,8 @@ Index **0** will be 0 100% of the time so we start there. In row 1 we can take a
 ```
 `output: 5`
 
+In this example we attempt to calculate the shortest path to the end for each row. None of them have a solution though so we print out 5 as the solution as it was the deepest index we could traverse to.
+
 ### Run the comparison file with:
 - `source run_commands.txt` > sanity check
 - Should be changed to a shell script loop but its 2:25am
